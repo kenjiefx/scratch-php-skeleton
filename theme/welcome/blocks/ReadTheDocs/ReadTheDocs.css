@@ -1,0 +1,20 @@
+.read-docs-text {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #a7cde1;
+}
+
+.read-docs-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.read-docs-text:hover {
+    cursor: pointer;
+    color: #60a4ff;
+}
+
+a.read-docs-text:link {
+    text-decoration: none !important;
+}

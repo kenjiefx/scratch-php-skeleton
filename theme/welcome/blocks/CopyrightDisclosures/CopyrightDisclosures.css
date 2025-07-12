@@ -1,0 +1,15 @@
+.copyright-disclosure-wrapper {
+    position: fixed;
+    top: 10px;
+    color: white;
+    font-size: 0.8em;
+    right: 10px;
+}
+
+.copyright-disclosure-wrapper a:link {
+    color: rgb(201, 201, 201) !important;
+}
+
+.copyright-disclosure-wrapper a:visited {
+    color: rgb(201, 201, 201) !important;
+}

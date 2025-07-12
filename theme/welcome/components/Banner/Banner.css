@@ -1,0 +1,12 @@
+section.banner-outer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-inner {
+    width: 60%;
+    margin-bottom: 80px;
+}

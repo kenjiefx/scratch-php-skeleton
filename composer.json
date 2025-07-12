@@ -1,0 +1,21 @@
+{
+    "name": "kenjiefx/scratch-skeleton",
+    "description": "Scratch PHP Skeleton Application",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenjie Terrado",
+            "email": "terradoflex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kenjiefx/scratch-php": "dev-main"
+    }
+}

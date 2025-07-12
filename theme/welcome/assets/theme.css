@@ -1,0 +1,40 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+    background: #332b21;
+    background: linear-gradient(90deg, rgba(51, 43, 33, 1) 0%, rgba(57, 40, 66, 1) 50%, rgba(6, 44, 56, 1) 100%);
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+}
+
+.site-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.subtitle {
+    color: #f4f4f4;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    margin-top: 0.3em;
+}
+
+.subtitle code {
+    color: #E91E63;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+use Kenjiefx\ScratchPHP\App;
+
+define('ROOT', dirname(__DIR__));
+require ROOT.'/vendor/autoload.php';
+
+$app = new App();
+$app->run();
